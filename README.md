@@ -20,7 +20,7 @@ One unit test has been provided here for each methods:
 The easiest way to run this appication would be to clone this repository and open with a java IDE like IntelliJ. To run the test cases, adding the JUnit 4 library to the IDE would be necessary
 
 ## Dateset 
-To run and validate the application using real-world data, I have provided Apple and Netflix historical dataset (neither the actual stock price nor the dates, only %return in seperate lines in a txt file) for the past 252 days. This values were found from yahoo finance website and then converted to percentage return by simple manipulation using MS excel.
+To run and validate the application using real-world data, I have provided Apple and Netflix historical dataset (%return in seperate lines in a txt file) for the past 252 days. This actual stock price for last 252 days were found from yahoo finance website and then converted to percentage return by simple manipulation using MS excel.
 
 ## References
 1. https://www.youtube.com/watch?v=WJWlHJuEUss&t=4s
