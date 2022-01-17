@@ -12,7 +12,7 @@ Let’s assume there are n number of stocks in a portfolio. In that case, we wil
 PortFolio VAR = VAR of stock1 * weight of stock1 in that portfolio + VAR of stock2 * weight of stock2 in that portfolio +.... 
 
 ## Writing Unit tests
-One unit test has been provided here for each methods:
+Two Unit Tests have been written:
 1. One edge case would be when there is only one stock in a portfolio, then portofolio VAR should equal singleTradeVAR
 2. Another edge case would be when the confidence interval is 100, then singleTradeVAR should be the maximum %return in the historical dataset
 
