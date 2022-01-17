@@ -10,17 +10,18 @@ Let’s assume there are n number of stocks in a portfolio. In that case, we wil
 
 PortFolio VAR = VAR of stock1 * weight of stock1 in that portfolio + VAR of stock2 * weight of stock2 in that portfolio +.... 
 
-Writing Unit tests:
+## Writing Unit tests
 One unit test has been provided here for each methods:
 1. One edge case would be when there is only one stock in a portfolio, then portofolio VAR should equal singleTradeVAR
 2. Another edge case would be when the confidence interval is 100, then singleTradeVAR should be the maximum %return in the historical dataset
 
-Running this application:
+## Running this application
 The easiest way to run this appication would be to clone this repository and open with a java IDE like IntelliJ. To run the test cases, adding the JUnit 4 library to the IDE would be necessary
 
-Dateset: To run and validate the application using real-world data, I have provided Apple and Netflix historical dataset (only %return) for the past 252 days. This values were found from yahoo finance website and then converted to percentage return by simple manipulation using MS excel.
+## Dateset 
+To run and validate the application using real-world data, I have provided Apple and Netflix historical dataset (only %return) for the past 252 days. This values were found from yahoo finance website and then converted to percentage return by simple manipulation using MS excel.
 
-References:
+## References
 1. https://www.youtube.com/watch?v=WJWlHJuEUss&t=4s
 2. https://finance.yahoo.com/quote/AAPL/history?p=AAPL
 3. https://www.investopedia.com/terms/v/var.asp
