@@ -9,3 +9,8 @@ Extending this calculation for a portfolio:
 Let’s assume there are n number of stocks in a portfolio. In that case, we will calculate VAR for all of them individually using corresponding historical %return. After that, we will need the weight of each stock to calculate the portfolio VAR.
 
 PortFolio VAR = VAR of stock1 * weight of stock1 in that portfolio + VAR of stock2 * weight of stock2 in that portfolio +.... 
+
+Writing Unit tests:
+One unit test has been provided here for each methods:
+1. One edge case would be when there is only one stock in a portfolio, then portofolio VAR should equal singleTradeVAR
+2. Another edge case would be when the confidence interval is 100, then singleTradeVAR should be the maximum %return in the historical dataset
