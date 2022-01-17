@@ -4,7 +4,7 @@ Value at Risk or VaR is a statistical measure of how much a Trade or Portfolio m
 Eg Given a set of Profit & Loss values, if the 95% worst P&L was a £5m loss, there is a (1-0.95)
 5% chance that our portfolio could lose £5m on a given day. 95% is known as the confidence
 level. Other common ones are 95, 97.5 and 99.
-![Alt text](/VAR.png?raw=true "Title")
+![Alt text](./VAR.png?raw=true "Title")
 
 ## Value At Risk Calculation using Historical Data
 Given a list of all the historical %return (Double datatype) of a stock (i.e. last 252 days for stock prices) and another integer as the confidence level(95/97/?) we follow the following method to calculate value at risk from historical values:
