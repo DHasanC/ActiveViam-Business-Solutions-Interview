@@ -17,3 +17,10 @@ One unit test has been provided here for each methods:
 
 Running this application:
 The easiest way to run this appication would be to clone this repository and open with a java IDE like IntelliJ. To run the test cases, adding the JUnit 4 library to the IDE would be necessary
+
+Dateset: To run and validate the application using real-world data, I have provided Apple and Netflix historical dataset (only %return) for the past 252 days. This values were found from yahoo finance website and then converted to percentage return by simple manipulation using MS excel.
+
+References:
+1. https://www.youtube.com/watch?v=WJWlHJuEUss&t=4s
+2. https://finance.yahoo.com/quote/AAPL/history?p=AAPL
+3. https://www.investopedia.com/terms/v/var.asp
