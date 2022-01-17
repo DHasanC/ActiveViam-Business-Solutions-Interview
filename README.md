@@ -14,3 +14,6 @@ Writing Unit tests:
 One unit test has been provided here for each methods:
 1. One edge case would be when there is only one stock in a portfolio, then portofolio VAR should equal singleTradeVAR
 2. Another edge case would be when the confidence interval is 100, then singleTradeVAR should be the maximum %return in the historical dataset
+
+Running this application:
+The easiest way to run this appication would be to clone this repository and open with a java IDE like IntelliJ. To run the test cases, adding the JUnit 4 library to the IDE would be necessary
